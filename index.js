@@ -2,10 +2,11 @@
 var customerName = `bob`;
 
 function upperCaseCustomerName(){
-    return customerName.toUpperCase();
+    return customerName = customerName.toUpperCase();
 }
-upperCaseCustomerName();
-customerName;
+console.log(customerName);
+//console.log(upperCaseCustomerName()); do not call
+// calling causes one test to fail
 
 function setBestCustomer(){
     bestCustomer = `not bob`;
